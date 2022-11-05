@@ -1,0 +1,273 @@
+body{
+    background-color: black;
+}
+.navbar{
+    
+    /* height: 150px;
+    width: 1500px; 
+    border: 2px solid white; */
+    background-color: black;
+    padding-top:41px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    font-size: large;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.hr{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 135px;
+}
+
+a{
+    font-size: 30px;
+    color: white;
+}
+
+.logo{
+    margin-right: 200px;
+    height: 6rem;
+    align-content: flex-start;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background:url(../images/home-img.jpeg) no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+.home h1{
+    margin-left: 50px;
+    font-size: 70px;
+    color: white;
+
+}
+
+.home p{
+    color: white;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.home .button{
+    margin-left: 50px;
+    background-color: darkgray;
+    
+    
+}
+.home .button:hover{
+    width: 120px;
+    height: 22px;
+    background-color: goldenrod;
+}
+
+.ab{
+    color: red;
+    font-size: 50px;
+}
+
+.about{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.aboutsec{
+    margin-left: 50px;
+    display: flex;
+    font-size: 20px;
+    color: white;
+}
+
+
+.aboutpara{
+    margin: 50px;
+}
+
+.aboutsec .learn:hover{
+    width: 100px;
+    height: 25px;
+    background-color: darkmagenta;
+}
+
+.ourmenu{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.menu{
+    display: flex;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.menu > div{
+    width:250px;
+    height:250px;
+    border: 2px solid white;
+    margin: 20px;
+}
+
+.menu :hover{
+    background-color: mediumorchid;
+    color: black;
+}
+
+.menu-1{
+    margin-left: 83px;
+    margin-top: 50px;
+}
+
+.mp-1{
+    color: white;
+    margin-left: 61px;
+}
+
+.mp-1 span{
+    text-decoration: line-through;
+}
+
+.ATC-1{
+    margin-left: 83px;
+    background-color:darkorange;
+    color: white;
+}
+
+.menu .ATC-1 :hover{
+    width: 50px;
+    height: 7px;
+    background-color: mediumorchid
+}
+
+.menu-2{
+    margin-left: 83px;
+    margin-top: 50px;
+}
+
+.mp-2{
+    color: white;
+    margin-left: 61px;
+}
+
+.mp-2 span{
+    text-decoration: line-through;
+}
+
+.ATC-2{
+    margin-left: 83px;
+    background-color:darkorange;
+    color: white;
+}
+
+.menu .ATC-2 :hover{
+    width: 50px;
+    height: 7px;
+    background-color: mediumorchid
+}
+
+.menu-3{
+    margin-left: 83px;
+    margin-top: 50px;
+}
+
+.mp-3{
+    color: white;
+    margin-left: 61px;
+}
+
+.mp-3 span{
+    text-decoration: line-through;
+}
+
+.ATC-3{
+    margin-left: 83px;
+    background-color:darkorange;
+    color: white;
+}
+
+.menu .ATC-3 :hover{
+    width: 50px;
+    height: 7px;
+    background-color: mediumorchid
+}
+
+.menu-4{
+    margin-left: 83px;
+    margin-top: 50px;
+}
+
+.mp-4{
+    color: white;
+    margin-left: 61px;
+}
+
+.mp-4 span{
+    text-decoration: line-through;
+}
+
+.ATC-4{
+    margin-left: 83px;
+    background-color:darkorange;
+    color: white;
+}
+
+.menu .ATC-4 :hover{
+    width: 50px;
+    height: 7px;
+    background-color: mediumorchid
+}
+
+.menu-5{
+    margin-left: 83px;
+    margin-top: 50px;
+}
+
+.mp-5{
+    color: white;
+    margin-left: 61px;
+}
+.mp-5 span{
+    text-decoration: line-through;
+}
+.ATC-5{
+    margin-left: 83px;
+    background-color:darkorange;
+    color: white;
+}
+
+.menu .ATC-5 :hover{
+    width: 50px;
+    height: 7px;
+    background-color: mediumorchid
+}
+
+.menu-6{
+    margin-left: 83px;
+    margin-top: 50px;
+}
+
+.mp-6{
+    color: white;
+    margin-left: 61px;
+}
+
+.mp-6 span{
+    text-decoration: line-through;
+}
+.ATC-6{
+    margin-left: 83px;
+    background-color:darkorange;
+    color: white;
+}
+
+.menu .ATC-6 :hover{
+    width: 50px;
+    height: 7px;
+    background-color: mediumorchid
+}
